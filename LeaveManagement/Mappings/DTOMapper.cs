@@ -13,8 +13,7 @@ namespace LeaveManagement.Mappings
         public DTOMapper()
         {
             CreateMap<Employee, EmployeeVM>().ReverseMap();
-            CreateMap<LeaveType, LeaveTypeVM>().ReverseMap();
-            CreateMap<LeaveType, LeaveTypeCreateVM>().ReverseMap();
+            CreateMap<LeaveType, LeaveTypeVM>().ReverseMap();            
             CreateMap<LeaveAllocation, LeaveAllocationVM>().ReverseMap();
             CreateMap<LeaveHistory, LeaveHistoryVM>().ReverseMap();
         }
